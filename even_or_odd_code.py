@@ -4,6 +4,5 @@ def even_or_odd(n):
     else:
         print("odd")
 
-num  = input("Enter your number: ")
-converted_num = int(num)
-even_or_odd(converted_num)
+num  = int(input("Enter your number: "))
+even_or_odd(num)
