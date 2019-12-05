@@ -24,6 +24,3 @@ def combine(list1, list2):
                 combo.append(list1[i])
                 combo.append(list2[i])
     return combo
-
-combined = combine([11,22,33], [1,2,3])
-print(combined)
