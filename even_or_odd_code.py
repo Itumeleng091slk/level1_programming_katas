@@ -4,5 +4,3 @@ def even_or_odd(n):
     else:
         print("odd")
 
-num  = int(input("Enter your number: "))
-even_or_odd(num)
