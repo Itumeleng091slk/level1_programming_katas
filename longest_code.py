@@ -20,14 +20,3 @@ def longest(words):
         print(longest_words[i] + "\n")
 
 
-# tests
-print ("list one test")
-list1 = ["the","quick","brown", "fox", "ate", "my", "chickens"]
-print(list1)
-longest(list1)
-list2 = ["once", "upon", "a", "time"]
-print("List two test")
-print(list2)
-longest(list2)
-print("testing empty list")
-longest([])
