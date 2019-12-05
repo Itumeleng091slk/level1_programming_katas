@@ -2,20 +2,21 @@ def combine(list1, list2):
     len1 = len(list1)
     len2 = len(list2)
     combo = []
+    #If list1 has more elements than list2
+    # Keep appending elements from each list while until the list with smallest length is left with no item.
+    # this helps to prevent indexError (index out of bound) in case the lists are not equal.
     if len1 > len2:
-        i = 0
-        while i < len2:
+        for i in range(len2):
             combo.append(list1[i])
             combo.append(list2[i])
-            i = i + 1
+        # Now add remaining elements from list1
         for remaining_index in range(i,len1):
             combo.append(list1[remaining_index])
     elif len1 < len2:
         i = 0
-        while i < len1:
+        for i in range(len1):
             combo.append(list1[i])
             combo.append(list2[i])
-            i = i + 1
         for remaining_index in range(i,len2):
             combo.append(list2[remaining_index])
     else:
