@@ -21,5 +21,3 @@ def frame(words):
         word_row = word_row + " *"
         print(word_row)
     print("*"*len_row)
-
-frame(["Write","good","code","every","day"])
