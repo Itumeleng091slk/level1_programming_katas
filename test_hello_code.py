@@ -6,6 +6,3 @@ class Test(unittest.TestCase):
         self.assertAlmostEqual(hello("Tshepo"),"Hello Tshepo!")
         self.assertAlmostEqual(hello("Yanga"),"Hello Yanga!")
         self.assertAlmostEqual(hello("Zweli"),"Hello Zweli!")
-       
-if __name__ == '__main__':
-    main()
